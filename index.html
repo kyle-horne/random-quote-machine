@@ -1,35 +1,30 @@
 <!DOCTYPE html>
-
-<!-- Instructions: Add a link to the stylesheet 'styles.css' at the designated spot below. -->
-
-<!-- Hints:
-
-* sample link: <link href="path-to-stylesheet/stylesheet.css" rel="stylesheet">
-* path to stylesheet: "css/styles.css"
-
--->
-
 <html>
 <head>
-	<title>Link to a Stylesheet Quiz</title>
-	<!-- the next line loads the tests for the Udacity Feedback extension -->
-	<meta name="udacity-grader" content="http://udacity.github.io/fend/lessons/L3/problem-set/10-link-to-a-stylesheet/tests.json">
-	<!-- add link here -->
-	<link href="css/styles.css" rel="stylesheet">"
+	<title>Random Quote Machine</title>
+	<link rel="stylesheet" type="text/css" href="random-quote-machine.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://use.fontawesome.com/3aa37ad316.js"></script>
+	<script type="text/javascript" src="random-quote-machine.js"></script>
 </head>
 <body>
-	<div class="container">
-		<div class="portfolio">
-			<h1>My Portfolio</h1>
-			<div class="item">
-				<img src="img/out-cold.png" width="300">
-				<span>This specific design features a 3D floating mountain above a weathered, rugged font to insinuate a winter outdoor theme. This logo would be a perfect fit for an outdoor product company or ski resort.</span>
-			</div>
-			<div class="item">
-				<img src="img/retro-beach.png" width="300">
-				<span>This specific design features a beach-themed fading sunset with palm trees. The fading vertical bars in the sun resemble warmth as it fades away into the sunset.</span>
-			</div>
-		</div>
+	<div class="card text-center">
+	  <div class="card-header">
+	    Random Quote Machine
+	  </div>
+	  <div class="card-body">
+	    <h4 class="card-title"></h4>
+	    <p class="card-text"></p>
+	    <a href="#" class="btn btn-primary">New quote</a>
+	    <a href="#" class="btn btn-secondary twitter-share-btn" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>
+	Tweet</a>
+	  </div>
+	  <div class="card-footer">
+	    By Kyle Horne
+	  </div>
 	</div>
 </body>
 </html>

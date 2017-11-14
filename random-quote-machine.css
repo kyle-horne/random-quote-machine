@@ -1,0 +1,19 @@
+.btn {
+  border: 0px;
+  padding: .385rem .85rem;
+}
+.btn:active, .btn:focus {
+  box-shadow: none !important;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn-secondary {
+  background-color: #1b95e0;
+}
+.btn-secondary:hover {
+  background-color: #0c7abf;
+}
+.card-header, .card-footer {
+  color: #fff;
+}
